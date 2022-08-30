@@ -1,9 +1,0 @@
-%% How to make a POP grid
-
-res = 1;
-PLOT = 1;
-
-info = make_global_grid_B(res,PLOT);
-
-info.Z = generate_Z_from_POP(info.tlats,info.tlons);
-info.kmt = locate_pop_kmt(info.Z,60);
